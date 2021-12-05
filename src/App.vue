@@ -1,18 +1,38 @@
 <template>
-  <div id="app">
-    <zuoye />
-  </div>
+  <firstpart></firstpart>
+  <second></second>
+  <third></third>
+  <fourth></fourth>
+  <fifth></fifth>
+  <sixth></sixth>
+  <seventh></seventh>
+  <eighth></eighth>
 </template>
 <script>
-import zuoye from "./components/zuoye.vue";
+import firstpart from "./components/firstpart.vue";
+import second from "./components/second.vue";
+import third from "./components/third.vue";
+import fourth from "./components/fourth.vue";
+import fifth from "./components/fifth.vue";
+import sixth from "./components/sixth.vue";
+import seventh from "./components/seventh.vue";
+import eighth from "./components/eighth.vue";
 export default {
   components: {
-    zuoye,
+    // eslint-disable-next-line no-undef
+    // eslint-disable-next-line vue/no-unused-components
+    firstpart,
+    second,
+    third,
+    fourth,
+    fifth,
+    sixth,
+    seventh,
+    eighth,
   },
   data() {
     return {};
   },
 };
 </script>
-
-<style lang="scss"></style>
+<style lang="css"></style>
